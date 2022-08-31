@@ -5,7 +5,7 @@ $(function(){
    //一秒鐘有1000毫秒
    //每秒鐘有60秒,每小時60分鐘,每天24小時
    var millisecsPerDay=24*60*60*1000;
-   var color = 邏輯判斷?"style=\"gray\"":"";
+   var color="";
 
    for(var x=0;x<topicCount;x++){
 
