@@ -1,0 +1,16 @@
+body{
+    text-align: center;
+}
+li{
+    text-align: left;
+}
+table{
+    width: 60%;
+    margin: auto;
+    font-size: 1.5em;
+}
+td{
+    border-bottom: 1px dashed palevioletred;
+    font-weight: bolder;
+    color: gray;
+}
