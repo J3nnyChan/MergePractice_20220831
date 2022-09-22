@@ -11,10 +11,10 @@
 
     <!-- Bootstrap core CSS -->
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="autoarrangeclass/style.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="carousel.css" rel="stylesheet">
+    <link href="lovetest/style.css" rel="stylesheet">
   </head>
   <body>
 
@@ -29,20 +29,21 @@
             <li class="nav-item active">
               <a class="nav-link" href="index.html">Home</a>
             </li>
-              <li class="nav-item">
-                <a class="nav-link" href="random_selector.html">RandomSelector</a>
-              </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">ClubCourse</a><span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="random_selector.html">RandomSelector</a>
             </li>
-            <a class="nav-link" href="lovetest.html">LoveTest</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="littlegame.html">LittleGame</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="ytplayer.html">YoutubePlayer</a>
-          </li>
+            <li class="nav-item">
+              <a class="nav-link" href="autoarrangeclass.html">ClubCourse</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">LoveTest</a><span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="littlegame.html">LittleGame</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ytplayer.html">YoutubePlayer</a>
+              </li>
           </ul>
           <form class="form-inline mt-2 mt-md-0">
             <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
@@ -58,7 +59,13 @@
 
         <hr class="featurette-divider">
 
-        <h1>社團課程時間表</h1>
+        <h1>你今年的愛情是什麼滋味?</h1>
+        <div>
+            <h2 id="questions"></h2>
+            <div id="options"></div>
+        </div>
+        <input id="startButton" type="button" value="開始作答!">
+
         <table id="courseTable"></table>
 
         <hr class="featurette-divider">
@@ -84,8 +91,8 @@
     <script src="dist/js/bootstrap.min.js"></script>
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
     <script src="assets/js/vendor/holder.min.js"></script>
-    <script src="randomselector/main.js"></script>
-    <script src="autoarrangeclass/topic.js"></script>
-    <script src="autoarrangeclass/main.js"></script>
+    <script src="lovetest/main.js"></script>
+    <script src="lovetest/data.js"></script>
+    <script src="lovetest/topic.js"></script>
   </body>
 </html>

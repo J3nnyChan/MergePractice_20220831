@@ -1,7 +1,7 @@
 var topic=[
     "上課",
-    "吃PEPPINO 培皮諾小館",
-    "剪頭髮",
+    "吃waku waku burger",
+    "去OXY剪頭髮",
     "上課",
     "休息",
     "上課"

@@ -10,7 +10,7 @@ table{
     font-size: 1.5em;
 }
 td{
-    border-bottom: 1px dashed palevioletred;
+    border-bottom: 2px dashed palevioletred;
     font-weight: bolder;
     color: gray;
 }

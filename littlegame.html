@@ -12,7 +12,7 @@
 
   <!-- Bootstrap core CSS -->
   <link href="dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="randomselector/style.css" rel="stylesheet">
+  <link href="littlegame/style.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
   <link href="carousel.css" rel="stylesheet">
@@ -33,7 +33,7 @@
             <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">RandomSelector</a><span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="random_selector.html">RandomSelector</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="autoarrangeclass.html">ClubCourse</a>
@@ -42,7 +42,7 @@
             <a class="nav-link" href="lovetest.html">LoveTest</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="littlegame.html">LittleGame</a>
+            <a class="nav-link" href="#">LittleGame</a><span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="ytplayer.html">YoutubePlayer</a>
@@ -62,18 +62,16 @@
 
       <hr class="featurette-divider">
 
-      <h1>?</h1>
-      <input type="button" value="今天晚餐吃什麼?">
-      <ul id="choices">
-        <li>披薩</li>
-        <li>義大利麵</li>
-        <li>漢堡</li>
-      </ul>
-      <img>
+      <body>
+        <h1>我要去右下角</h1>
+        <div>
+          <canvas id="myCanvas" width="600" height="600"></canvas>
+          <p id="talkBox"></p>
+        </div>
 
-      <hr class="featurette-divider">
+        <hr class="featurette-divider">
 
-      <!-- /END THE FEATURETTES -->
+        <!-- /END THE FEATURETTES -->
 
     </div><!-- /.container -->
 
@@ -96,7 +94,10 @@
   <script src="dist/js/bootstrap.min.js"></script>
   <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
   <script src="assets/js/vendor/holder.min.js"></script>
-  <script src="randomselector/main.js"></script>
+  <script src="littlegame/data.js"></script>
+  <script src="littlegame/main.js"></script>
+  <script src="littlegame/topic.js"></script>
+
 </body>
 
 </html>
